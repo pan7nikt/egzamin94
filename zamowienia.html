@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zamówienia hurtowe</title>
+    <link rel="stylesheet" href="styl4.css">
+</head>
+
+<body>
+    <div id="banner">
+        <h1>Sieci komputerowe</h1>
+    </div>
+    <div id="left">
+        <h2>Aktualizacja i zamówienia materiałów</h2>
+        <p>Do wewnętrznego użytku firmy</p>
+        <img src="obraz.png" alt="sieć komputerowa">
+    </div>
+    <div id="right">
+        <table>
+            <tr>
+                <th>Produkt</th>
+                <th>Jednostka</th>
+                <th>Dostępna ilość</th>
+                <th>Aktualizacja</th>
+                <th>Zamówienie</th>
+            </tr>
+            <tr>
+                <td id="p0">Skrętka U/UTP drut</td>
+                <td>metr</td>
+                <td id="0">20</td>
+                <td><button onclick="aktualizuj(0)">Aktualizuj</button></td>
+                <td><button onclick="zamow('p0')">Zamów</button></td>
+            </tr>
+            <tr>
+                <td id="p1">Skrętka U/UTP linka</td>
+                <td>metr</td>
+                <td id="1">2</td>
+                <td><button onclick="aktualizuj(1)">Aktualizuj</button></td>
+                <td><button onclick="zamow('p1')">Zamów</button></td>
+            </tr>
+            <tr>
+                <td id="p2">Wtyki 8P8C</td>
+                <td>sztuki</td>
+                <td id="2">10</td>
+                <td><button onclick="aktualizuj(2)">Aktualizuj</button></td>
+                <td><button onclick="zamow('p2')">Zamów</button></td>
+            </tr>
+            <tr>
+                <td id="p3">Moduły Keystone</td>
+                <td>sztuki</td>
+                <td id="3">30</td>
+                <td><button onclick="aktualizuj(3)">Aktualizuj</button></td>
+                <td><button onclick="zamow('p3')">Zamów</button></td>
+            </tr>
+        </table>
+    </div>
+    <div id="stopka">
+        <a href="http://sieci.pl/" target="_blank">Nasza strona internetowa</a>
+        <p>Stronę przygotował: 12345678901</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
